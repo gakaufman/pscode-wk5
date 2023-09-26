@@ -1,0 +1,72 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+let num1 = parseFloat(prompt("Input Value:"));
+let num2 = parseFloat(prompt("Input Value;"));
+const sum = num1 + num2;
+console.log("The sum is: " + sum); 
+
+// Exercise 2: Check if a Number is Even or Odd
+
+1. Be able to input numbers.
+
+2. Store the numbers as a variable.
+
+3. Divide the input by 2.
+
+4. If it has no remainder, it is even.
+
+5. If the number has a remainder, it is odd.
+
+let num1 = parseFloat(prompt("Enter the number:"));
+const num2 = 2;
+
+if (num1 % num2 === 0) {
+	console.log("The number is even.");
+	} else {
+		console.log("The number is odd.");
+	}
+
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+1. Make a list or input five separate numbers.
+
+2. Add all numbers together.
+
+3. Divide the sum by five.
+
+4. Print the average.
+
+5. print out the minimum number out of the five listed.
+
+6. print out the maximum number out of the five listed.
+
+7. Print out the results of the numbers from steps 4, 5, and 6.
+
+let num1 = parseFloat(prompt("Input Value:"));
+let num2 = parseFloat(prompt("Input Value:"));
+let num3 = parseFloat(prompt("Input Value:"));
+let num4 = parseFloat(prompt("Input Value:"));
+let num5 = parseFloat(prompt("Input Value:"));
+
+const numbers = [num1, num2, num3, num4, num5];
+
+console.log(numbers);
+
+const sum1 = num1 + num2 + num3 + num4 + num5;
+
+const average = sum1 / 5;
+
+const minimum = Math.min(...numbers);
+const maximum = Math.max(...numbers);
+
+console.log("This is the average: " +average);
+console.log("This is the minimum: " +minimum);
+console.log("This is the maximum: " +maximum);
+-- END --
